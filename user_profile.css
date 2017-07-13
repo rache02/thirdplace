@@ -3,7 +3,7 @@ html, body {
 }
 
 .banner {
-  background-image: url('http://via.placeholder.com/1000x500');
+  background-image: url('https://cdn.pixabay.com/photo/2017/03/10/14/05/background-2132911_960_720.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
@@ -65,8 +65,10 @@ button {
 .challenges {
   margin: 0;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 800px;
+  text-align: center;
 }
 
 .c1 {
@@ -80,6 +82,7 @@ button {
 
 .active_challenges img {
   border-radius: 50%;
+  text-align: center;
 }
 
 .sidebar-nav {
@@ -101,6 +104,17 @@ button {
   margin-left: 25%
 }
 
-.content img {
+.content p {
+  display: inline-block;
+  width: 700px;
+  padding: 10px;
+}
 
+.events h2 {
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+.content {
+  display: inline-block;
 }

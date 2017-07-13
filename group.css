@@ -8,7 +8,6 @@ html, body {
   background-repeat: no-repeat;
   height: 400px;
   max-width: 100%;
-  position: relative;
 }
 
 button {
@@ -17,34 +16,15 @@ button {
   margin: 10px;
 }
 
-.banner span {
-  float: left;
-  top: 20px;
-  left: 10px;
-}
-
-.banner img {
-  float: left;
-  max-height: 200px;
-  position: absolute;
-  bottom: 50px;
-  left: 50px;
-  border-radius: 50%;
-}
-
-.username {
-  display: flex;
-  justify-content: center;
-}
-
 .man_scores {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   max-height: 200px;
   max-width: 400px;
-  position: absolute;
   bottom: 0;
   right: 50px;
+  margin-left: 25%;
 }
 
 .scores {
@@ -53,31 +33,6 @@ button {
 }
 
 .man_scores img {
-  border-radius: 50%;
-}
-
-.active_title {
-  margin: 0;
-  text-align: center;
-  width: 850px;
-}
-
-.challenges {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  width: 800px;
-}
-
-.c1 {
-  display: flex;
-  width: 100px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: auto;
-}
-
-.active_challenges img {
   border-radius: 50%;
 }
 
@@ -98,8 +53,4 @@ button {
 .activities {
   margin-top: 50px;
   margin-left: 25%
-}
-
-.content img {
-
 }
