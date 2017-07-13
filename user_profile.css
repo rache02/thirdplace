@@ -1,0 +1,80 @@
+html, body {
+  margin: 0;
+}
+
+.banner {
+  background-image: url('http://via.placeholder.com/1000x500');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+button {
+  border-radius: 4px;
+  float: right;
+  margin: 10px;
+}
+
+.banner span {
+  float: left;
+  top: 20px;
+  left: 10px;
+}
+
+.banner img {
+  float: left;
+  max-height: 200px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  border-radius: 50%;
+}
+
+.username {
+  display: flex;
+  justify-content: center;
+}
+
+.man_scores {
+  display: flex;
+  flex-direction: row;
+  max-height: 200px;
+  max-width: 400px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+.scores {
+  text-align: center;
+  padding: 10px;
+}
+
+.man_scores img {
+  border-radius: 50%;
+}
+
+.active_challenges {
+  display: flex;
+
+}
+
+.active_challenges img {
+  border-radius: 50%;
+}
+
+.sidebar-nav {
+  margin-left: -250px;
+  left: 250px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  width: 25%;
+}
+
+.activities {
+  margin-top: 50px;
+  margin-left: 25%
+}
