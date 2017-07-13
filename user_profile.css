@@ -23,13 +23,13 @@ button {
   left: 10px;
 }
 
-.banner img {
+#banner {
   float: left;
   max-height: 200px;
   position: absolute;
   bottom: 50px;
   left: 50px;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .username {
@@ -37,23 +37,12 @@ button {
   justify-content: center;
 }
 
-.man_scores {
-  display: flex;
-  flex-direction: row;
+#man_scores {
+  float: right;
   max-height: 200px;
-  max-width: 400px;
   position: absolute;
-  bottom: 0;
-  right: 50px;
-}
-
-.scores {
-  text-align: center;
-  padding: 10px;
-}
-
-.man_scores img {
-  border-radius: 50%;
+  bottom: 50px;
+  background-color: white;
 }
 
 .active_title {
