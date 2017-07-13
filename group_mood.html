@@ -4,24 +4,13 @@
     <meta charset="utf-8">
     <title>The Third Place</title>
     <link rel="stylesheet" href="normalise.css">
-    <link rel="stylesheet" href="user_profile.css">
+    <link rel="stylesheet" href="group_mood.css">
   </head>
   <body>
     <div class="banner">
       <span>The Third Place</span>
       <button>Account</button>
-
-      <img id="banner" src="https://github.com/rache02/thirdplace/blob/master/images/Test1.jpeg?raw=true" alt="">
-
-      <div class="username">
-        <h1>Dominic Cooper</h1>
-      </div>
-
-
-      <div>
-        <img id="man_scores" src="https://github.com/rache02/thirdplace/blob/master/images/dials-set_1024.png?raw=true" alt="">
-      </div>
-
+      <h1>Group Mood</h1>
     </div>
 
     <div class="sidebar-nav">
@@ -35,6 +24,10 @@
       </nav>
     </div>
 
+    <div class="man_scores">
+        <img src="https://github.com/rache02/thirdplace/blob/master/images/dials-set_1024.png?raw=true" alt="">
+    </div>
+
     <div class="activities">
       <div class="active_challenges">
         <div class="active_title">
@@ -43,11 +36,11 @@
         <div class="challenges">
           <div class="c1">
             <img src="http://via.placeholder.com/100x100" alt="">
-            <label for="">Challenge 1</label>
+            <label for="">ALTONA AVENGERS</label>
           </div>
           <div class="c1">
             <img src="http://via.placeholder.com/100x100" alt="">
-            <label for="">Challenge 2</label>
+            <label for="">Challenges 2</label>
           </div>
           <div class="c1">
             <img src="http://via.placeholder.com/100x100" alt="">
@@ -71,6 +64,25 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
+
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Group Feed')">Group Feed</button>
+        <button class="tablinks" onclick="openCity(event, 'MAN Feed')">MAN Feed</button>
+      </div>
+
+      <div id="defaultOpen" class="tabcontent" >
+        <h3>Group Feed</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div id="MAN_Feed" class="tabcontent">
+        <h3>MAN_Feed</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
     </div>
+    <script src="main.js">
+
+    </script>
   </body>
 </html>

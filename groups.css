@@ -1,9 +1,10 @@
 html, body {
   margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .banner {
-  background-image: url('http://via.placeholder.com/1000x500');
+  background-image: url('http://wowslider.com/sliders/demo-10/data/images/dock.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
@@ -16,27 +17,39 @@ button {
   margin: 10px;
 }
 
+.banner h1 {
+  text-align: center;
+}
+
 .sidebar-nav {
-  margin-left: -250px;
-  left: 250px;
-  width: 250px;
-  position: fixed;
-  height: 100%;
-  width: 25%;
+ margin-left: -150px;
+ left: 70px;
+ width: 150px;
+ position: fixed;
+ height: 100%;
+ z-index: 10000;
+ transition: all .4s ease 0s;
+ display: block;
+ float: left;
+ width: 150px;
+ list-style: none;
+ margin: 0;
+ padding: 0;
 }
 
 .sidebar-nav li {
-  padding: 20px;
+  padding: 10px;
   list-style-type: none;
 }
 
 .man_scores {
   margin-left: 25%;
   margin-top: 50px;
+
 }
 
 .man_scores img {
-  width: 80%
+  width: 90%
 
 }
 
@@ -103,4 +116,19 @@ div.tab button.active {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+.content p {
+  display: inline-block;
+  width: 700px;
+  padding: 10px;
+}
+
+.events h2 {
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+.content {
+  display: inline-block;
 }
