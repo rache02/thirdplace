@@ -1,0 +1,16 @@
+.loginPage {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  background: gray;
+  border: 3px solid darkgray;
+}
